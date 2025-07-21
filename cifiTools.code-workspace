@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        // Use the virtual environment
+        "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "editor.formatOnSave": true,
+        "files.exclude": {
+            "**/venv": true,
+            "**/__pycache__": true
+        },
+        "search.exclude": {
+            "**/venv": true,
+            "**/__pycache__": true
+        }
+    }
+}
